@@ -1,13 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import NavigationBar from './components/NavigationBar';
+import News from './components/News';
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        Hello my first class based Component
+        <NavigationBar/>
+        <News pageSize />
       </div>
     )
   }
